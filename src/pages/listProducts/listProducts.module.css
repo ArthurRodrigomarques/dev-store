@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+}
+.list_products {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.list_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 20%;
+    border-radius: 6px;
+    box-shadow: 4px 5px 8px 2px #ddd;
+}
+.list_items:hover {
+    transform: scale(1.1);
+    transition: .2s all ease-in-out;
+}
+
+.list_items img {
+    width: 50%;
+    height: 40%;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 17px;
+} 
+.link:visited {
+    color: #000;
+}
+.link:checked {
+    color: green;
+}
+
+.btn_info {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: rgb(60, 212, 65);
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn_info span {
+    color: rgb(244, 240, 241);
+}
+
+@media screen and (max-width:799px) {
+    .list_items{
+        width: 90%;
+        padding: 10px;
+        margin-left: 20px;
+    }
+    .btn_info {
+        width: 200px;
+    }
+}
+@media screen and (min-width:800px) {
+    .btn_info {
+        width: 90%;
+    }
+}
