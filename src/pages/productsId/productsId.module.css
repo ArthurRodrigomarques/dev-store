@@ -1,0 +1,50 @@
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 4px 5px 8px 2px #ddd;
+}
+
+.info strong {
+    color: red;
+    font-size: 20px;
+}
+
+.info:hover {
+    transform: scale(1.1);
+    transition: .2s all ease-in-out;
+}
+
+.btn {
+    margin-top: 40px;
+    text-align: center;
+}
+.go_back {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(40, 220, 20);
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+      
+h2, p  {
+    padding: 10px;
+}
